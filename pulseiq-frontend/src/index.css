@@ -1,0 +1,63 @@
+body {
+  background-color: #0d1117;
+  color: #f5f5f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: #161d28 !important;
+  border: 1px solid #273142 !important;
+  border-radius: 20px;
+  color: #f5f5f5 !important;
+}
+
+.text-muted {
+  color: #ffffff !important;
+}
+
+/* ===== PULSEIQ TABLE ===== */
+
+.pulse-table {
+  color: #ffffff !important;
+}
+
+.pulse-table th,
+.pulse-table td {
+  color: #ffffff !important;
+  border-color: #273142 !important;
+}
+
+.pulse-table thead th {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.pulse-table tbody td {
+  color: #ffffff !important;
+}
+
+.pulse-table > :not(caption) > * > * {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.customer-count {
+  color: #ffffff !important;
+}
+
+.action-text {
+  color: #ffffff !important;
+}
+
+/* ===== RISK BADGES ===== */
+
+.risk-badge {
+  display: inline-block;
+  background-color: #3b2b12;
+  color: #ffb02e !important;
+  border: 1px solid #6b4b16;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 600;
+}
